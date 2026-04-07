@@ -2,19 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
+    <title>My Styled Webpage</title>
+    
+    <style>
+        /* This is where the CSS magic happens! */
+        body {
+            background-color: #f0f4f8; /* A light, soft blue-grey background */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333; /* Dark grey text (easier to read than pure black) */
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto; /* Centers the box on the screen */
+            padding: 30px;
+            border-radius: 15px; /* Rounds the corners */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Adds a soft glow/shadow */
+        }
+
+        h1 {
+            color: #2ea44f; /* GitHub's signature green */
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Welcome to Our Web Development Class!</h1>
-    
-    <p>
-        We are learning how to use GitHub, manage repositories, 
-        and host live websites. This paragraph is proof that I 
-        can code and deploy a page all by myself!
-    </p>
-  <h2>My Favorite Things</h2>
+    <div class="container">
+        <h1>Welcome to Our Web Development Class!</h1>
+        <p>
+            We are learning how to use GitHub, manage repositories, 
+            and host live websites. I just added CSS to make this look awesome!
+        </p>
+    </div>
 
-<ul><li>Coding</li><li>GitHub</li><li>Coffee</li></ul>
 </body>
 </html>
