@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <title>My Styled Webpage</title>
     
-    <style>
+    <style> a {
+    color: #0969da; /* A classic "link blue" */
+    text-decoration: none; /* Removes the underline by default */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline only when you hover over it */
+    color: #0a4a91; /* Darkens the blue slightly on hover */
+}
         .profile-image {
     width: 100%;       /* Makes it responsive */
     max-width: 400px;  /* Stops it from getting too huge */
@@ -43,7 +52,10 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container"> <p>
+    Check out my favorite website: 
+    <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Visit Wikipedia</a>
+</p>
         <img src="my-photo.jpg" alt="A descriptive label for my image" class="profile-image">
         <h1>Welcome to Our Web Development Class!</h1>
         <p>
