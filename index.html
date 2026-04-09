@@ -5,6 +5,13 @@
     <title>My Styled Webpage</title>
     
     <style>
+        .profile-image {
+    width: 100%;       /* Makes it responsive */
+    max-width: 400px;  /* Stops it from getting too huge */
+    height: auto;      /* Keeps the proportions correct */
+    border-radius: 8px;/* Matches your container's vibe */
+    margin-top: 20px;
+}
         /* This is where the CSS magic happens! */
         body {
             background-color: #f0f4f8; /* A light, soft blue-grey background */
@@ -37,6 +44,7 @@
 <body>
 
     <div class="container">
+        <img src="my-photo.jpg" alt="A descriptive label for my image" class="profile-image">
         <h1>Welcome to Our Web Development Class!</h1>
         <p>
             We are learning how to use GitHub, manage repositories, 
